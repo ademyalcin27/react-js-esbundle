@@ -10,7 +10,6 @@ const App = () => {
     
     return (
         <Provider store={store}>
-            <h1>Test</h1>
             <CellList />
         </Provider>
     )

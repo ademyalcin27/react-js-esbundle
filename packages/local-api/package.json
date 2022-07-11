@@ -1,6 +1,6 @@
 {
   "name": "@ay-esbuild-react-v1/local-api",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "",
   "files": [
     "dist"

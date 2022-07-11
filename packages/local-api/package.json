@@ -23,18 +23,10 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "cors": "^2.8.5",
-    "express": "^4.18.1",
-    "http-proxy-middleware": "^2.0.6",
-    "local-client": "^0.1.0"
-  }
-=======
     "@ay-esbuild-react/local-client": "^1.0.0",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "http-proxy-middleware": "^2.0.6"
   },
   "gitHead": "cee681c148a21a8c08f5c4a58ba91de106005e61"
->>>>>>> e21a5f5bb7fc92c49d5562c82fa0bd9bceb719d2
 }

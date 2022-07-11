@@ -23,7 +23,7 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "@ay-esbuild-react-v1/local-client": "^1.0.1",
+    "@ay-esbuild-react-v1/local-client": "^1.0.0",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "http-proxy-middleware": "^2.0.6"

@@ -1,6 +1,6 @@
 import path from 'path';
 import { Command } from 'commander';
-import { serve } from '@ay-esbuild-react/local-api';
+import { serve } from '@ay-esbuild-react-v1/local-api';
 
 const isProduction = process.env.NODE_ENV === 'production'
 

@@ -1,5 +1,5 @@
 {
-  "name": "@ay-esbuild-react/local-client",
+  "name": "@ay-esbuild-react-v1/local-client",
   "version": "1.0.1",
   "private": true,
   "files": [

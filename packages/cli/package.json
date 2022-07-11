@@ -1,6 +1,6 @@
 {
   "name": "ay-esbuild-react-v1",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "files": [
     "dist"
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ay-esbuild-react-v1/local-client": "^1.0.0"
+    "@ay-esbuild-react-v1/local-client": "^2.0.0"
   },
   "devDependencies": {
-    "@ay-esbuild-react-v1/local-api": "^1.0.0",
+    "@ay-esbuild-react-v1/local-api": "^2.0.0",
     "@types/node": "^18.0.3",
     "commander": "^9.3.0",
     "esbuild": "0.8.26",

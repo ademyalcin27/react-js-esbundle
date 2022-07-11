@@ -1,8 +1,14 @@
 {
-  "name": "local-client",
-  "version": "0.1.0",
+  "name": "@ay-esbuild-react/local-client",
+  "version": "1.0.0",
   "private": true,
-  "dependencies": {
+  "files": [
+    "build"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
     "@craco/craco": "^6.4.4",
     "@fortawesome/fontawesome-free": "^6.1.1",
     "@monaco-editor/react": "3.7.5",
@@ -12,6 +18,7 @@
     "@types/jest": "^27.4.0",
     "@types/jscodeshift": "0.7.2",
     "@types/node": "^16.11.17",
+    "@types/prettier": "^2.4.3",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "@types/react-redux": "7.1.15",
@@ -26,6 +33,7 @@
     "localforage": "^1.10.0",
     "monaco-editor": "0.21.3",
     "monaco-jsx-highlighter": "0.0.15",
+    "prettier": "^2.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "7.2.2",
@@ -41,7 +49,8 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "craco eject",
-    "serve": "node local-api.js"
+    "serve": "node local-api.js",
+    "prepublishOnly": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -60,9 +69,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@types/prettier": "^2.4.3",
-    "prettier": "^2.5.1"
   }
 }

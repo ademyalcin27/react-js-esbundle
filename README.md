@@ -6,13 +6,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-Which Technologies here;
+Which Technologies used here;
 - Client Side
     - React / Typescript
     - Redux
     - Redux-Thunk
     - ESbuild-wasm
     - Monaca Editor
+    - Monaco Editor
     - localforage
     - Craco
     - immer js

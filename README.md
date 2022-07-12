@@ -23,6 +23,12 @@ Which Technologies used here;
     - CLI
     - express js
 
+### Install as npm package
+```
+    npx ay-esbuild-react-v1@latest serve
+```
+
+## For development
 ### `npm start`
 
 Runs the app in the development mode.\ and also will execute parallel 3 projects
